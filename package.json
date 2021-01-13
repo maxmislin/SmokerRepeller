@@ -1,0 +1,26 @@
+{
+  "name": "smokerrepeller",
+  "version": "1.0.0",
+  "description": "Smoker deterrent app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "cd app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmislin/smoker-repeller.git"
+  },
+  "author": "Maksims Mislins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxmislin/smoker-repeller/issues"
+  },
+  "homepage": "https://github.com/maxmislin/smoker-repeller#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "twilio": "^3.54.2"
+  }
+}
